@@ -106,6 +106,12 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
+  <!-- Oppo -->
+  <!-- Oppo R5 -->
+  <project name="LumKitty/android_device_oppo_r5" path="device/oppo/r5" remote="github" branch="cm-14.1" />
+  <project name="LineageOS/android_kernel_oppo_msm8939" path="kernel/oppo/msm8939" remote="cm" branch="cm-14.1" />
+  <project name="LineageOS/android_device_oppo_r5" path="device/oppo/msm8939-common" remote="cm" branch="cm-14.1" />
+
   <!-- Common device repos -->
   <project name="AOKP/device_oppo_common" path="device/oppo/common" remote="aokp" branch="nougat" />
 
